@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+.mySlides {
+    display: none;
+}
+img {
+    position: absolute;
+    vertical-align: middle;
+    width: 75%;
+    top: 100px;
+    left: 11%;
+}
+.container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.text {
+    color: #f22222;
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 860px;
+    width: 100%;
+    text-align: center;
+}
+.kir{
+    top: 10px;
+}
+.pounds{
+    text-align:center
+}
+.pound {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 260px;
+    left: 750px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 30px ;
+    display: block;
+    transition: background-color 0.6s ease;
+}
+.pounds img{
+    filter:grayscale(100%);
+    filter:gray;
+}
+.active {
+    background-color: #fff;
+    animation: 2s linear 0s normal none infinite running greys;
+}
+.active img{
+    filter:none;
+}
